@@ -1,3 +1,9 @@
+# 操作指南
+
+## 运行环境 
+**ubuntu18.04 + ROS melodic**
+
+## 操作流程概述
 1. roscore
 2. sudo chmod a+rw /dev/ttyUSB0
 2. 进入catkin_ws进行重力补偿
