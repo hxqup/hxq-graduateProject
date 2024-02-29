@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/devel
+
+Name: impedance
+Description: Description of impedance
+Version: 0.0.0
+Cflags: -I/home/hxq/catkin_ws/src/Compliant-Control-and-Application/control_algorithms/impedance/include
+Libs: -L${prefix}/lib 
+Requires: eigen_conversions joint_effort_msg joint_state_msg geometry_msgs std_msgs roscpp sensor_msgs tf tf_conversions

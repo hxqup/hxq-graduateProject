@@ -1,0 +1,8 @@
+prefix=/home/hxq/ur_ws/install
+
+Name: cartesian_state_msgs
+Description: Description of cartesian_state_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime

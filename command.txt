@@ -1,0 +1,7 @@
+1.roscore
+2.进入catkin_ws进行重力补偿
+3.进入ur_ws进行阻抗控制
+
+
+roslaunch ur_robot_driver ur5e_bringup.launch limited:=true robot_ip:=192.168.1.100 kinematics_config:="/home/hxq/catkin_ws/src/Polishing/fmauch_universal_robot/ur_description/config
+/my_robot_calibration.yaml"

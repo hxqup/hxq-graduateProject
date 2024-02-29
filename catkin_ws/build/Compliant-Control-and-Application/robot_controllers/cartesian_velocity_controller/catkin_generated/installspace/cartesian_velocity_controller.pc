@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/install
+
+Name: cartesian_velocity_controller
+Description: Description of cartesian_velocity_controller
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcartesian_velocity_controller
+Requires: cartesian_state_msgs

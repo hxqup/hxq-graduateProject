@@ -1,0 +1,8 @@
+prefix=/home/hxq/ur_ws/install
+
+Name: hybrid_position_force_control
+Description: Description of hybrid_position_force_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lhybrid_position_force_control
+Requires: cartesian_state_msgs roscpp sensor_msgs tf tf_conversions trajectory_msgs

@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/install
+
+Name: universal_robot_databag
+Description: Description of universal_robot_databag
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/devel
+
+Name: joint_torque_controller
+Description: Description of joint_torque_controller
+Version: 0.0.0
+Cflags: -I/home/hxq/catkin_ws/src/Compliant-Control-and-Application/robot_controllers/joint_torque_controller/include
+Libs: -L${prefix}/lib -ljoint_torque_controller
+Requires: joint_effort_msg joint_state_msg std_msgs

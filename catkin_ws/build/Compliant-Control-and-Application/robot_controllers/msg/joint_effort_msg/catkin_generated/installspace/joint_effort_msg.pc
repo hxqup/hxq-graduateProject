@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/install
+
+Name: joint_effort_msg
+Description: Description of joint_effort_msg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

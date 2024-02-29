@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/devel
+
+Name: hybrid_position_force_control
+Description: Description of hybrid_position_force_control
+Version: 0.0.0
+Cflags: -I/home/hxq/catkin_ws/src/Compliant-Control-and-Application/Controllers_Algorithms/control_algorithm/hybrid_position_force_control/include
+Libs: -L${prefix}/lib -lhybrid_position_force_control
+Requires: cartesian_state_msgs roscpp sensor_msgs tf tf_conversions trajectory_msgs

@@ -1,0 +1,8 @@
+prefix=/home/hxq/catkin_ws/devel
+
+Name: admittance
+Description: Description of admittance
+Version: 0.0.0
+Cflags: -I/home/hxq/catkin_ws/src/Compliant-Control-and-Application/control_algorithms/admittance/include
+Libs: -L${prefix}/lib 
+Requires: cartesian_state_msgs roscpp sensor_msgs tf tf_conversions trajectory_msgs
